@@ -8,6 +8,6 @@ export const styles = StyleSheet.create({
         backgroundColor: "lightblue"
     },
     h1:{
-        fontSize:"30px",
+        fontSize:"35px",
     }
 })
