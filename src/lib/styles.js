@@ -5,8 +5,9 @@ export const styles = StyleSheet.create({
         flex:1,
         justifyContent:"center",
         alignItems:"center",
+        backgroundColor: "lightblue"
     },
     h1:{
-        fontSize:"30px",
+        fontSize:"35px",
     }
 })
