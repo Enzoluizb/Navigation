@@ -6,7 +6,9 @@ export const HomeScreen = ({navigation}) =>{
         <View style={styles.container}>
             <Text>Home page</Text>
             <Button title='Ir para Sobre'
-             onPress={() => navigation.navigate("Sobre")}></Button> 
+             onPress={() => navigation.navigate("Sobre")}></Button>
+              <Button title='Ir para Ajuda'
+             onPress={() => navigation.navigate("Ajuda")}></Button>  
            </View>
     );
 };
