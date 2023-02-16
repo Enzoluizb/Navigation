@@ -10,6 +10,7 @@ export const styles = StyleSheet.create({
     },
     container2: {
         flex: 1,
+        gap: 10
     },
     formulario: {
         backgroundColor: "lightblue",
