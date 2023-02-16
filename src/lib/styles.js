@@ -1,13 +1,32 @@
 import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
-    container:{
-        flex:1,
-        justifyContent:"center",
-        alignItems:"center",
-        backgroundColor: "lightblue"
+    container: {
+        flex: 1,
+        justifyContent: "flex-start",
+        alignItems: "center",
+        backgroundColor: "lightblue",
+        gap: 100,
     },
-    h1:{
-        fontSize:"35px",
-    }
+    container2: {
+        flex: 1,
+    },
+    formulario: {
+        backgroundColor: "lightblue",
+        flex: 1,
+        alignItems: "center",
+        gap: 20,
+    },
+    formulario2: {
+        flex: 1,
+        flexDirection: "column",
+        alignItems: "center"
+    },
+    formulario3: {
+        flex: 1,
+        flexDirection: "row",
+        alignItems: "center",
+        gap: 25,
+    },
+    
 })
