@@ -29,5 +29,11 @@ export const styles = StyleSheet.create({
         alignItems: "center",
         gap: 25,
     },
+    radio: {
+        flex: 1,
+        flexDirection: "row",
+        alignItems: "center",
+        gap: 5
+    },
     
 })
